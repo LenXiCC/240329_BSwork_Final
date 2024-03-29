@@ -14200,6 +14200,23 @@ textarea.form-control-lg {
     margin-left: 12px;
   }
 }
+.recentlyWorkH1 {
+  background-image: url(./../img/title01.png);
+}
+
+.adoptH1 {
+  background-image: url(./../img/title02.png);
+}
+
+.recentlyWorkH1,
+.adoptH1 {
+  width: 250px;
+  height: 134px;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
 .bannerHuge {
   background-image: url(.././img/index/home.png);
   height: 810px;
@@ -14412,6 +14429,12 @@ textarea.form-control-lg {
     background-position: center center;
   }
 }
+.serviceH1 {
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
 @media (max-width: 768px) {
   .stepText {
     min-width: 218px;
