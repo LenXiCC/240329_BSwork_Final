@@ -1,0 +1,16 @@
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+//BS5的fs屬性在mobile會自動套用vw縮小我不要ಠ_ಠ害我又要另外寫class固定font-size
+
+
+.fontSize24 {
+  font-size: 24px;
+}
+
+.fontSize32 {
+  font-size: 32px;
+}
