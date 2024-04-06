@@ -14124,13 +14124,13 @@ textarea.form-control-lg {
 }
 
 body {
-  color: #3A3A3A;
+  color: #3a3a3a;
 }
 
 .btnThemeHover:hover {
   color: black;
-  background-color: #F9C745;
-  border: 1px solid #F9C745;
+  background-color: #f9c745;
+  border: 1px solid #f9c745;
 }
 
 .kalam-bold {
@@ -14194,7 +14194,7 @@ body {
   }
   .navBottomBorder {
     box-shadow: 0 0;
-    border-bottom: 2px solid #F9C745;
+    border-bottom: 2px solid #f9c745;
   }
 }
 @media (max-width: 576px) {
@@ -14356,15 +14356,15 @@ body {
 }
 
 .link-adopt {
-  color: #3A3A3A;
+  color: #3a3a3a;
   text-decoration: none;
 }
 .link-adopt:hover {
-  color: #F9C745;
+  color: #f9c745;
 }
 
 .fixed-talk {
-  border: solid 2px #3A3A3A;
+  border: solid 2px #3a3a3a;
   border-radius: 10px;
   padding: 8px 23px;
   background-color: #fff;
@@ -14446,27 +14446,27 @@ body {
 }
 .designTextItem {
   display: flex;
-  color: #3A3A3A;
+  color: #3a3a3a;
   text-decoration: none;
 }
 .designTextItem::before {
   content: "";
   width: 0px;
   height: 2px;
-  background-color: #F9C745;
+  background-color: #f9c745;
   margin-right: 5px;
   margin-top: 12px;
   transition: all 0.2s;
 }
 .designTextItem:hover {
-  color: #F9C745;
+  color: #f9c745;
 }
 .designTextItem:hover::before {
   width: 11px;
 }
 
 .designTextItem-active {
-  color: #F9C745;
+  color: #f9c745;
 }
 .designTextItem-active::before {
   width: 11px;
@@ -14498,15 +14498,29 @@ body {
   left: 0;
   width: 1500px;
   height: 6px;
-  background-color: #F9C745;
+  background-color: #f9c745;
 }
 
 .formPurchase input::-moz-placeholder {
-  color: #C6C6C6;
+  color: #c6c6c6;
 }
 
 .formPurchase input::placeholder {
-  color: #C6C6C6;
+  color: #c6c6c6;
+}
+
+.formPurchase input:focus,
+.formPurchase .form-select:focus,
+.formPurchase .form-check-input:focus,
+.formPurchase textarea:focus {
+  border-color: #fce3a2;
+  box-shadow: 0 0 0 0.25rem rgba(249, 198, 67, 0.25);
+}
+
+.formPurchase .form-check-input:checked {
+  background-color: #f9c745;
+  border-color: #fce3a2;
+  --bs-form-check-bg-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='black' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e");
 }
 
 @media (max-width: 576px) {
